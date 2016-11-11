@@ -3,3 +3,5 @@ scala:
    - 2.12.0
 jdk:
   - oraclejdk8
+notifications:
+  slack: cic-a3r:ZA8VZA7PVeFsyuLBH0A1qDBP
