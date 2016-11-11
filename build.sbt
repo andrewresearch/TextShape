@@ -22,3 +22,11 @@ lazy val textshape = (project in file(".")).
   )
 
 scalacOptions in (Compile,doc) ++= Seq("-groups", "-implicits")
+
+enablePlugins(SiteScaladocPlugin)
+
+//ghpages.settings
+
+//git.remoteRepo := "git@github.com:andrewresearch/TextShape.git"
+
+//site.includeScaladoc()
